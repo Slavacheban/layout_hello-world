@@ -17,6 +17,7 @@ const config = {
   scenarios: [
     {
       ...basicScenario,
+      url: 'http://localhost:8081/index.html',
       label: 'Entire document',
       referenceUrl: basicScenario.referenceUrl + '/hello-world/',
     }],
